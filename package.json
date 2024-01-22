@@ -14,7 +14,8 @@
     "dev": "next dev",
     "build": "next build",
     "analyze": "ANALYZE=true next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.0.0",
@@ -28,7 +29,8 @@
     "react-dom": "^18.2.0",
     "three": "^0.160.0",
     "three-stdlib": "^2.28.9",
-    "tunnel-rat": "^0.1.2"
+    "tunnel-rat": "^0.1.2",
+    "vercel": "^33.2.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.0.4",
